@@ -1,0 +1,83 @@
+:root{
+    --blue-gray: #354c70;
+    --light-red: #f67280;
+    --lightest-green:#bad9c2;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--blue-gray);
+}
+
+/* section{
+} */
+
+section form{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    width: 47%;
+    background-color: var(--lightest-green);
+}
+
+/* label{
+
+} */
+input{
+    /* background: whitesmoke; */
+    margin:5px 0 0 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+form button{
+    width: 150px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 7px;
+    height: 30px;
+}
+
+section div{
+    background-color: var(--light-red);
+    margin: 10px;
+    padding:  10px;
+    width: 47%;
+}
+
+section div.marksheet{
+    float: right;
+    top: 0;
+    position: absolute;
+    right: 0;
+    /* clear: both; */
+}
+
+section div.marksheet h1{
+    font-weight:900;
+    width: 100%;
+    color:darkolivegreen;
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+section div.marksheet p{
+    text-align: center;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+section div.marksheet input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin: 10px 0 ;
+    padding: 10px 0;
+    width: 180px;
+}
